@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAI;EACF,WAAW,EAAE,oBAAoB",
-"sources": ["assets/styles/_base.scss"],
+"mappings": "AAAA,IAAI;EACF,WAAW,EAAE,oBAAoB;;AAEnC,SAAS;EACP,OAAO,EAAE,GAAG;;ACJd,sBAAuB;EACnB,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,MAAM;EACf,OAAO,EAAE,OAAO;EAChB,SAAS,EAAE,IAAI",
+"sources": ["assets/styles/_base.scss","assets/styles/_navbar.scss"],
 "names": [],
 "file": "style.css"
 }
