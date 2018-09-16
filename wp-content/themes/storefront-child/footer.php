@@ -1,5 +1,5 @@
 <?php do_action( 'storefront_before_footer' ); ?>
-
+</div>
 <footer id="colophon" class="site-footer" role="contentinfo">
   <div class="col-full">
 

@@ -27,11 +27,13 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <?php
-            wp_nav_menu(array(
-              'theme_location'=>'main_header_left',
-            ));
-          ?>
+					<!-- <div class="navbar-nav ml-auto"> -->
+						<?php
+						wp_nav_menu(array(
+							'theme_location'=>'main_header',
+						));
+						?>
+					<!-- </div> -->
           <div class="navbar-nav ml-auto">
           </div>
         </div>

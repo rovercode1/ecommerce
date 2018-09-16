@@ -27,7 +27,7 @@ function website_files(){
     'bootstrap_bundle','https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js
 ');
   // Fonts
-    wp_enqueue_style('gothic_font', '//fonts.googleapis.com/css?family=Nanum+Gothic');
+    wp_enqueue_style('roboto_font', '//fonts.googleapis.com/css?family=Roboto:300,400');
     wp_enqueue_style('poppins_font', '//fonts.googleapis.com/css?family=Poppins:100,200,400" rel="stylesheet">');
 }
 add_action( 'wp_enqueue_scripts', 'website_files' );
