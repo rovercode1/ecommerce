@@ -2,12 +2,39 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 #masthead {
-  padding: 0px; }
+  padding: 0px;
+  margin: 0px; }
 
-ul#menu-main-header li {
-  list-style: none;
-  display: inline;
-  padding: 0px 4px;
-  font-size: 20px; }
+ul#menu-main-header {
+  margin: 0px; }
+  ul#menu-main-header li {
+    list-style: none;
+    display: inline;
+    padding: 0px 4px;
+    font-size: 20px; }
+
+#header {
+  background-image: url(http://localhost/ecommerce/wp-content/themes/storefront-child/assets/img/beach.png);
+  background-size: cover;
+  background-position: 10% 72%;
+  height: 387px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #header .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    border-radius: 5px;
+    background: #ffffff82; }
+    #header .overlay h2 {
+      margin: 0px;
+      font-size: 41px; }
+    #header .overlay #brand {
+      font-size: 51px;
+      font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+#header{
+  background-image: url(http://localhost/ecommerce/wp-content/themes/storefront-child/assets/img/beach.png);
+  background-size: cover;
+  background-position: 10% 72%;
+  height: 387px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    border-radius: 5px;
+    background: #ffffff82;
+    h2{
+      margin: 0px;
+      font-size: 41px;
+    }
+    #brand{
+      font-size: 51px;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,6 +1,9 @@
-ul#menu-main-header li {
+ul#menu-main-header{
+  margin: 0px;
+  li {
     list-style: none;
     display: inline;
     padding: 0px 4px;
     font-size: 20px;
+  }
 }
