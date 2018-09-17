@@ -39,10 +39,11 @@
         </div>
       </div>
     </nav>
-	</header><!-- #masthead -->
+	</header>
+	<!-- #masthead -->
 	<?php 	do_action( 'storefront_before_content' ); ?>
-	<div id="content" class="site-content" tabindex="-1">
-		<div class="col-full">
+	<!-- <div id="content" class="site-content" tabindex="-1"> -->
+		<!-- <div class="col-full"> -->
 
 		<?php
 		do_action( 'storefront_content_top' );
