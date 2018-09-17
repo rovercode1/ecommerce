@@ -29,6 +29,7 @@ function website_files(){
   // Fonts
     wp_enqueue_style('roboto_font', '//fonts.googleapis.com/css?family=Roboto:300,400');
     wp_enqueue_style('poppins_font', '//fonts.googleapis.com/css?family=Poppins:100,200,400" rel="stylesheet">');
+    wp_enqueue_style('dosis_font', '//fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">');
 }
 add_action( 'wp_enqueue_scripts', 'website_files' );
 // ============================================
