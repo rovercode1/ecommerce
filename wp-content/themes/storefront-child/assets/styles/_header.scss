@@ -17,11 +17,36 @@
     background: #ffffff82;
     h2{
       margin: 0px;
-      font-size: 41px;
+      font-size: 60px;
     }
     #brand{
-      font-size: 51px;
+      font-size: 82px;
       font-weight: 700;
+    }
+  }
+}
+
+@media(max-width:991px){
+  #header{
+    .overlay{
+      h2{
+        font-size: 47px;
+      }
+      #brand{
+        font-size: 68px;
+      }
+    }
+  }
+}
+@media(max-width:555px){
+  #header{
+    .overlay{
+      h2{
+        font-size: 37px;
+      }
+      #brand{
+        font-size: 58px;
+      }
     }
   }
 }
