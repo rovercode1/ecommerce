@@ -68,7 +68,9 @@
   </div>
 </section>
 <section id='contact-section'>
-  <h2>Have any questions?</h2>
-  <h1>Contact us!</h1>
+  <div class="container">
+    <h2>Have any questions?</h2>
+    <h1>Contact us!</h1>
+  </div>
 </section>
 <?php include 'footer.php' ?>
