@@ -1,0 +1,25 @@
+#contact-section{
+  background: #e9e9e9;
+  padding: 70px;
+  .contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+      font-weight: bold;
+    }
+  }
+  #contact-btn{
+    background: $themeColour;
+    &:hover{
+      background: $hoverTheme;
+    }
+    h1{
+      color: #fff;
+      margin: 0px;
+
+    }
+
+  }
+}
