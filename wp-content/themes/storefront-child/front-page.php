@@ -9,23 +9,17 @@
   <div class="icon-box container">
     <div class="icon">
       <i class="fas fa-truck"></i>
-      <p>Free Shipping For Orders Over $15</p>
+      <p>Free Shipping For Orders Over $35</p>
     </div>
     <div class="icon">
       <i class="fas fa-check"></i>
-      <p>High Quality</p>
+      <p>High Quality Products</p>
     </div>
     <div class="icon">
       <i class="fas fa-lock"></i>
       <p>HTTPS Secure</p>
     </div>
   </div>
-  <!-- Boxes to show featues -->
-  <!-- Free Shipping -->
-  <!-- High Quality Products -->
-  <!-- HTTPs Secure -->
-
-
 </section>
 <section id="featured">
   <div class='container' id="product-box">
@@ -69,8 +63,12 @@
 </section>
 <section id='contact-section'>
   <div class="container">
-    <h2>Have any questions?</h2>
-    <h1>Contact us!</h1>
+    <div class="contact-box">
+      <h2>Have any questions?</h2>
+      <a class='btn' href="#" id='contact-btn'>
+        <h1 >Contact us!</h1>
+      </a>
+    </div>
   </div>
 </section>
 <?php include 'footer.php' ?>
