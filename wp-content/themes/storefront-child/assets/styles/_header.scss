@@ -26,7 +26,21 @@
   }
 }
 
+.site-header-cart .cart-contents{
+  padding: 0px;
+  font-size: 20px;
+}
+
+
 @media(max-width:991px){
+  .nav-box{
+    justify-content: normal;
+    flex-direction: column;
+    align-items: initial;
+  }
+  .menu-main-header-container ul#menu-main-header li{
+      display: block;
+  }
   #header{
     .overlay{
       h2{

@@ -103,7 +103,19 @@ ul#site-header-cart {
       font-size: 82px;
       font-weight: 700; }
 
+.site-header-cart .cart-contents {
+  padding: 0px;
+  font-size: 20px; }
+
 @media (max-width: 991px) {
+  .nav-box {
+    justify-content: normal;
+    flex-direction: column;
+    align-items: initial; }
+
+  .menu-main-header-container ul#menu-main-header li {
+    display: block; }
+
   #header .overlay h2 {
     font-size: 47px; }
   #header .overlay #brand {
@@ -338,5 +350,51 @@ div#primary-sidebar {
     #contact-section #contact-btn h1 {
       color: #fff;
       margin: 0px; }
+
+h1.entry-title {
+  text-align: center; }
+
+form.wpcf7-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.input-text, input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
+  border: 1px solid #dddd;
+  background: #fff;
+  box-shadow: none;
+  border-radius: 5px; }
+
+input.wpcf7-form-control.wpcf7-submit {
+  margin-bottom: .236em;
+  background: #ffffff;
+  padding: 3px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #000;
+  margin: 8px 0px;
+  transition: 0.5s; }
+  input.wpcf7-form-control.wpcf7-submit:hover {
+    background: #b96c61;
+    color: #fff;
+    border: 1px solid #b96c61; }
+
+ul#menu-main-footer {
+  display: flex;
+  justify-content: center;
+  margin: 0px; }
+  ul#menu-main-footer li {
+    list-style-type: none;
+    font-size: 20px;
+    display: inline;
+    padding: 10px; }
+
+@media (max-width: 900px) {
+  ul#menu-main-footer {
+    justify-content: flex-start;
+    flex-direction: column; }
+    ul#menu-main-footer li {
+      display: block; } }
 
 /*# sourceMappingURL=style.css.map */
