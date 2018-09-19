@@ -64,7 +64,7 @@
 <section id='contact-section'>
   <div class="container">
     <div class="contact-box">
-      <h2>Have any questions?</h2>
+      <h1>Have any questions?</h1>
       <a class='btn' href="#" id='contact-btn'>
         <h1 >Contact us!</h1>
       </a>

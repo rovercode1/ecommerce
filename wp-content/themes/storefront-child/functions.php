@@ -11,9 +11,9 @@ function my_theme_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function website_files(){
     //Main Javascript
-      // wp_enqueue_script(
-      // 'main_javascript',
-      // get_stylesheet_directory_uri().'/assets/js/main.js', array('jquery'),false,false);
+      wp_enqueue_script(
+      'main_javascript',
+      get_stylesheet_directory_uri().'/assets/js/main.js', array('jquery'),false,false);
     //Style.css added
     wp_enqueue_style('website_main_files', get_stylesheet_uri());
     // Bootstrap
