@@ -1,0 +1,95 @@
+// Product container
+.product {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+// Sticky add to cart button
+a.storefront-sticky-add-to-cart__content-button.button.alt {
+    background: #b45663;
+    border-radius: 10px;
+    padding: 6px 20px;
+}
+// Product image
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-5.images{
+  max-width:350px;
+}
+// Second collum
+.summary.entry-summary{
+  margin: 30px 0px;
+}
+
+// Title
+h1.product_title.entry-title{
+  font-size: 37px;
+  font-family: Poppins;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+}
+// Price
+p.price{
+  margin: 0px;
+    span.woocommerce-Price-amount.amount {
+    font-weight: 800;
+    color: black;
+  }
+}
+// Product Description
+.woocommerce-product-details__short-description p {
+  font-size: 20px;
+  font-family: Poppins;
+}
+
+// Stock
+p.stock.in-stock{
+  font-size: 15px;
+  font-family: Poppins;
+}
+// Add to cart button
+button.single_add_to_cart_button.button.alt{
+  background: $themeColour;
+  border-radius: 10px;
+  padding: 6px 20px;
+  border: 0px;
+  &:hover{
+    background: $hoverTheme;
+  }
+}
+.quantity .qty{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+
+// Reviews
+
+div#respond{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+textarea#comment{
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+// Coming soon
+.coming-soon{
+  // border: 2px solid #ff0000;
+  padding: 10px 60px;
+  border-radius: 4px;
+  display: inline;
+  font-size: 22px;
+  background: $themeColour;
+  color: #fff !important;
+}
+// Coming soon before
+p.stock.out-of-stock.coming-soon::before {
+  content:none;
+}
+
+.single-product div.product .product_meta{
+  margin: 20px 0px;
+}
