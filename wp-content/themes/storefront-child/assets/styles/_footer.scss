@@ -1,0 +1,21 @@
+ul#menu-main-footer {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    li {
+      list-style-type: none;
+      font-size: 20px;
+      display: inline;
+      padding: 10px;
+  }
+}
+
+@media(max-width:900px){
+  ul#menu-main-footer {
+      justify-content: flex-start;
+      flex-direction: column;
+      li {
+        display: block;
+    }
+  }
+}

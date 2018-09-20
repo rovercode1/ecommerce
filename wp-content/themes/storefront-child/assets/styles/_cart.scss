@@ -1,0 +1,30 @@
+a.remove::before{
+  content: "\f2ed";
+  color: #c54545;
+  &:hover{
+    color:#9e4646;
+  }
+}
+table.cart td, table.cart th {
+    padding: 5px;
+}
+table.cart td.actions {
+    padding: 10px 0px;
+}
+
+table.shop_table_responsive tbody tr td, table.shop_table_responsive tbody tr th {
+    padding: 3px;
+    background: #fff;
+    border-bottom: 1px solid #ececec;
+}
+
+table.cart td.actions {
+    padding: 10px 0px;
+}
+
+a.checkout-button.button.alt.wc-forward{
+  background: $themeColour;
+  &:hover{
+    background: $hoverTheme;
+  }
+}

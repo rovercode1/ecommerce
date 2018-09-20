@@ -1,0 +1,27 @@
+.woocommerce-billing-fields__field-wrapper{
+  display: flex;
+  flex-direction: column;
+  label{
+    margin-right:20px;
+  }
+}
+
+p#order_comments_field{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+#payment .place-order .button{
+  background: $themeColour;
+  border: none;
+  &:hover{
+    background:$hoverTheme;
+  }
+}

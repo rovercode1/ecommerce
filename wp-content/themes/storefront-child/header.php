@@ -27,15 +27,14 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-					<!-- <div class="navbar-nav ml-auto"> -->
+					<div class="nav-box">
 						<?php
 						wp_nav_menu(array(
 							'theme_location'=>'main_header',
 						));
 						?>
-					<!-- </div> -->
-          <div class="navbar-nav ml-auto">
-          </div>
+						<?php storefront_header_cart() ?>
+					</div>
         </div>
       </div>
     </nav>

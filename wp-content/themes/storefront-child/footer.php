@@ -2,7 +2,11 @@
 </div>
 <footer id="colophon" class="site-footer" role="contentinfo">
   <div class="col-full">
-
+    <?php
+    wp_nav_menu(array(
+      'theme_location'=>'main_footer',
+    ));
+     ?>
     <?php
     /**
      * Functions hooked in to storefront_footer action

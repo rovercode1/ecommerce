@@ -11,9 +11,9 @@ function my_theme_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function website_files(){
     //Main Javascript
-      // wp_enqueue_script(
-      // 'main_javascript',
-      // get_stylesheet_directory_uri().'/assets/js/main.js', array('jquery'),false,false);
+      wp_enqueue_script(
+      'main_javascript',
+      get_stylesheet_directory_uri().'/assets/js/main.js', array('jquery'),false,false);
     //Style.css added
     wp_enqueue_style('website_main_files', get_stylesheet_uri());
     // Bootstrap
@@ -28,7 +28,9 @@ function website_files(){
 ');
   // Fonts
     wp_enqueue_style('roboto_font', '//fonts.googleapis.com/css?family=Roboto:300,400');
-    wp_enqueue_style('poppins_font', '//fonts.googleapis.com/css?family=Poppins:100,200,400" rel="stylesheet">');
+    wp_enqueue_style('Titillium_font', '//fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">" rel="stylesheet">');
+    wp_enqueue_style('dosis_font', '//fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">');
+
 }
 add_action( 'wp_enqueue_scripts', 'website_files' );
 // ============================================
@@ -126,6 +128,15 @@ function arphabet_widgets_init() {
    'before_title'  => '<h2 class="rounded">',
    'after_title'   => '</h2>',
  ) );
+ register_sidebar( array(
+   'name'          => 'More Products',
+   'id'            => 'products_widget',
+   'before_widget' => '<div class="widget-bar">',
+   'after_widget'  => '</div>',
+   'before_title'  => '<h2 class="rounded">',
+   'after_title'   => '</h2>',
+ ) );
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
+
  ?>

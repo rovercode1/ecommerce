@@ -5,3 +5,75 @@ body{
   padding: 0px;
   margin: 0px;
 }
+
+.woocommerce-info{
+  padding: 6px 3px;
+}
+
+.header{
+  color: #b96c61;
+  border: 2px solid #b96c61;
+  border-radius: 5px;
+  font-weight: 500;
+}
+// Handheld icons
+.storefront-handheld-footer-bar ul li.my-account > a::before{
+  color: $themeColour;
+}
+
+.storefront-handheld-footer-bar ul li.cart > a::before{
+  color: $themeColour;
+}
+.storefront-handheld-footer-bar ul li.cart .count{
+  color: $themeColour;
+  background: #fff;
+}
+.storefront-handheld-footer-bar ul li.home > a:before {
+ content: "\f015";
+ color: $themeColour;
+}
+
+.icon-box{
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  i:before{
+    font-size: 60px;
+    color: $themeColour;
+  }
+
+  p{
+    margin: 10px 0px;
+    font-weight: 700;
+  }
+}
+
+.button{
+  background: $themeColour;
+  color: #fff;
+  &:hover{
+    background: $hoverTheme;
+    color: #fff;
+  }
+}
+
+.icon:nth-child(2){
+  border: 1px solid #b96c61;
+  border-top: none;
+  border-bottom: none;
+}
+
+@media(max-width:991px){
+  .icon-box{
+    flex-direction: column;
+  }
+}

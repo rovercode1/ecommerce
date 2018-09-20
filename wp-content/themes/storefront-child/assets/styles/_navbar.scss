@@ -1,9 +1,36 @@
-ul#menu-main-header{
-  margin: 0px;
-  li {
-    list-style: none;
-    display: inline;
-    padding: 0px 4px;
-    font-size: 20px;
+.menu-main-header-container{
+  flex:1;
+  ul#menu-main-header{
+    margin: 0px;
+    li {
+      list-style: none;
+      display: inline;
+      padding: 0px 4px;
+      font-size: 20px;
+    }
+  }
+}
+.nav-box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  a{
+    padding: 0px;
+  }
+}
+ul#site-header-cart {
+    width: 150px;
+    transition: 0.2s;
+    &:hover{
+      width: 250px;
+    }
+}
+
+@media(max-width:991px){
+  ul#menu-main-header{
+    li {
+      display: block;
+    }
   }
 }

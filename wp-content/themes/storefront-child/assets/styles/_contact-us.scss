@@ -1,0 +1,33 @@
+h1.entry-title{
+  text-align: center;
+}
+
+form.wpcf7-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-text, input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
+    border: 1px solid #dddd;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+  margin-bottom: .236em;
+  background: #ffffff;
+  padding: 3px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #000;
+  margin: 8px 0px;
+  transition: 0.5s;
+  &:hover{
+    background: $themeColour;
+    color:#fff;
+    border: 1px solid $themeColour;
+  }
+}
