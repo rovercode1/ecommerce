@@ -6,6 +6,10 @@ body{
   margin: 0px;
 }
 
+.woocommerce-info{
+  padding: 6px 3px;
+}
+
 .header{
   color: #b96c61;
   border: 2px solid #b96c61;
@@ -50,6 +54,15 @@ body{
   p{
     margin: 10px 0px;
     font-weight: 700;
+  }
+}
+
+.button{
+  background: $themeColour;
+  color: #fff;
+  &:hover{
+    background: $hoverTheme;
+    color: #fff;
   }
 }
 
