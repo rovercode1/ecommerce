@@ -49,9 +49,17 @@ jQuery(function($){
   if($('body').hasClass('page-id-479')){
     $('#post-479').addClass('container');
   }
-
+  // Default pages
   if($('body').hasClass('page-template-default')){
     $('.site-main').addClass('container');
   }
 
+  // Thank you page
+  if($('body').hasClass('woocommerce-order-received')){
+    $('.addresses').addClass('row');
+    $('.woocommerce-column--billing-address').addClass('col-lg-12 col-md-12');
+    $('.woocommerce-column--billing-address').removeClass('col-1');
+    $('.woocommerce-column--shipping-address').removeClass('col-2');
+
+  }
 })
