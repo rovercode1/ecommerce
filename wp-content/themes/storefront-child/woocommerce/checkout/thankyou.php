@@ -35,10 +35,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<a href="<?php echo esc_url( wc_get_page_permalink( 'myaccount' ) ); ?>" class="button pay"><?php _e( 'My account', 'woocommerce' ); ?></a>
 				<?php endif; ?>
 			</p>
-
 		<?php else : ?>
-
 			<p class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received"><?php echo apply_filters( 'woocommerce_thankyou_order_received_text', __( 'Thank you. Your order has been received.', 'woocommerce' ), $order ); ?></p>
+			<?php   dynamic_sidebar( 'products_widget' ); ?>
 
 			<ul class="woocommerce-order-overview woocommerce-thankyou-order-details order_details">
 
@@ -69,6 +68,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 						<?php _e( 'Payment method:', 'woocommerce' ); ?>
 						<strong><?php echo wp_kses_post( $order->get_payment_method_title() ); ?></strong>
 					</li>
+
 				<?php endif; ?>
 
 			</ul>
